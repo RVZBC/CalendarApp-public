@@ -1,0 +1,13 @@
+.addtask-dashboard {
+    justify-content: center;
+    height: 500px;
+    width: 700px;        
+    vertical-align: middle;
+    top: 150;
+    margin-top: 200px;
+    border-radius: 30px;
+    padding: 50px;
+    -webkit-box-shadow: 5px 5px 15px 5px #999999; 
+    box-shadow: 5px 5px 15px 5px #999999;
+
+}

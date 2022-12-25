@@ -1,0 +1,24 @@
+.dashboard {
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    min-width: 200px;
+    vertical-align: middle;    
+    top: 150;
+    margin-top: 100px;    
+    border-radius: 30px;
+    padding: 50px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(2px);
+    -webkit-box-shadow: 5px 5px 15px 5px #2c2525; 
+    box-shadow: 5px 5px 15px 5px #272020;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+    .dashboard {
+        height: auto;        
+    }
+}

@@ -1,0 +1,12 @@
+.theme-change {
+    z-index: 200;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 110, 197);
+    right: 0;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;    
+    border-radius: 5px;
+    cursor: pointer;
+}
