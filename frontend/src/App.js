@@ -5,6 +5,7 @@ import AddTask from './components/addTask/AddTask';
 import './App.css';
 import EditTask from './components/editTask/EditTask';
 import ButtonTheme from './components/button/Button';
+import Error from './components/main/Error';
 
 // For changing background theme and passing down props to different components
 export const ThemeContext = createContext(null);
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/" element={<Dashboard/>}/>
           <Route path="/addTask" element={<AddTask/>}/>
           <Route path="/editTask/:id" element={<EditTask/>}/>
+          <Route path="*" element={<Error/>}/>
         </Routes>
       </Router>
     </div>
